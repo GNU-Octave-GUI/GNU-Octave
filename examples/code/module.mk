@@ -1,0 +1,57 @@
+%canon_reldir%_SRC = \
+  %reldir%/@FIRfilter/FIRfilter.m \
+  %reldir%/@FIRfilter/FIRfilter_aggregation.m \
+  %reldir%/@FIRfilter/display.m \
+  %reldir%/@FIRfilter/subsasgn.m \
+  %reldir%/@FIRfilter/subsref.m \
+  %reldir%/@polynomial/disp.m \
+  %reldir%/@polynomial/double.m \
+  %reldir%/@polynomial/end.m \
+  %reldir%/@polynomial/get.m \
+  %reldir%/@polynomial/mtimes.m \
+  %reldir%/@polynomial/numel.m \
+  %reldir%/@polynomial/plot.m \
+  %reldir%/@polynomial/polynomial.m \
+  %reldir%/@polynomial/polynomial_superiorto.m \
+  %reldir%/@polynomial/polyval.m \
+  %reldir%/@polynomial/roots.m \
+  %reldir%/@polynomial/set.m \
+  %reldir%/@polynomial/subsasgn.m \
+  %reldir%/@polynomial/subsref.m \
+  %reldir%/addtwomatrices.cc \
+  %reldir%/celldemo.cc \
+  %reldir%/embedded.cc \
+  %reldir%/fortrandemo.cc \
+  %reldir%/fortransub.f \
+  %reldir%/funcdemo.cc \
+  %reldir%/globaldemo.cc \
+  %reldir%/helloworld.cc \
+  %reldir%/make_int.cc \
+  %reldir%/mex_demo.c \
+  %reldir%/mex_celldemo.c \
+  %reldir%/mex_fevaldemo.c \
+  %reldir%/mex_fevalf.f \
+  %reldir%/mex_funcdemo.c \
+  %reldir%/mex_hellodemo.c \
+  %reldir%/mex_pow2demo.c \
+  %reldir%/mex_propdemo.c \
+  %reldir%/mex_setdemo.c \
+  %reldir%/mex_sparsedemo.c \
+  %reldir%/mex_stringdemo.c \
+  %reldir%/mex_structdemo.c \
+  %reldir%/oct_demo.cc \
+  %reldir%/oregonator.cc \
+  %reldir%/oregonator.m \
+  %reldir%/paramdemo.cc \
+  %reldir%/polynomial2.m \
+  %reldir%/standalone.cc \
+  %reldir%/standalonebuiltin.cc \
+  %reldir%/stringdemo.cc \
+  %reldir%/structdemo.cc \
+  %reldir%/unwinddemo.cc
+
+%canon_reldir%_EXTRA_DIST = \
+  $(%canon_reldir%_SRC) \
+  %reldir%/COPYING
+
+EXTRA_DIST += $(%canon_reldir%_EXTRA_DIST)
